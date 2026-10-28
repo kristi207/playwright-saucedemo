@@ -1,0 +1,16 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "End-to-end UI test suite for Sauce Demo using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "@types/node": "20.11.30",
+    "typescript": "5.4.5"
+  }
+}
